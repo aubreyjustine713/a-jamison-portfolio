@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(255, 236, 222);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+nav a {
+  margin-right: 20px;
+}
+header {
+  padding: 30px;
+  color: #071a41;
+}
+header p {
+  font-size: large;
+  margin-bottom: 20px;
+}
+header h1 {
+  font-size: 45px;
+}
+header h4 {
+  margin-top: 25px;
+  font-size: large;
+}
+main {
+  padding: 0 20px;
+}
+a {
+  text-decoration: none;
+  color: #164299;
+}
+footer {
+  text-align: center;
+  font-size: small;
+  background-color: #071a41;
+  color: rgb(255, 249, 242);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+}
+footer a {
+  color: rgb(255, 231, 210);
+}
+.container {
+  text-align: center;
+  max-width: 800px;
+  margin: 60px auto;
+}
+.container-projects {
+  margin-top: 100px;
+}
+.logo {
+  max-width: 150px;
+  margin: 20px;
+}
+.navbar-dark .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+.navbar-dark {
+  background-color: #071a41;
+  color: rgb(255, 249, 242);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: medium;
+  padding: 0;
+  margin: 0;
+}
+.projects img {
+  border-radius: 6px;
+  max-width: 350px;
+}
+.projects {
+  margin: 30px;
+}
+.project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.project-description {
+  text-align: left;
+}
+.contact {
+  text-align: right;
+}
+.name {
+  font-size: 24px;
+}
+.contact-links {
+  color: #164299;
+}
+@media (max-width: 720px) {
+  .project {
+    grid-template-columns: 1fr;
+  }
+}
