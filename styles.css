@@ -53,14 +53,14 @@ footer a {
 .navbar-dark .navbar-nav .nav-link.active {
   font-weight: 500;
 }
-.navbar-dark {
+.navbar {
   background-color: #071a41;
   color: rgb(255, 249, 242);
   position: fixed;
   top: 0;
   width: 100%;
   font-size: medium;
-  padding: 0;
+  padding-left: 15px;
   margin: 0;
 }
 .projects img {
