@@ -28,9 +28,6 @@ header h4 {
   margin-top: 25px;
   font-size: large;
 }
-main {
-  padding: 0 20px;
-}
 a {
   text-decoration: none;
   color: #164299;
@@ -52,9 +49,6 @@ footer a {
   text-align: center;
   max-width: 800px;
   margin: 60px auto;
-}
-.container-projects {
-  margin-top: 100px;
 }
 .logo {
   max-width: 150px;
@@ -89,6 +83,7 @@ footer a {
   text-align: left;
 }
 .contact {
+  margin-top: 30px;
   text-align: right;
 }
 .name {
@@ -98,7 +93,14 @@ footer a {
   color: #164299;
 }
 @media (max-width: 720px) {
+  .project-description {
+    padding: 0 10px;
+  }
+  .projects {
+    margin: 0px;
+  }
   .project {
     grid-template-columns: 1fr;
+    grid-gap: 0px;
   }
 }
